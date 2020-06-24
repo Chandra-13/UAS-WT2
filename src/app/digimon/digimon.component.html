@@ -1,0 +1,12 @@
+<ActionBar title="Digidex" style="background-color: yellow;color: black; font-weight: bolder;">
+</ActionBar>
+
+<GridLayout>
+    <ListView [items]="pokemons$ | async" (loadMoreItems)="loadMore()">
+        <ng-template let-item="item">
+            <StackLayout>
+                <Label [nsRouterLink]="['/digimon', digimon.name]" [text]="item.name"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+</GridLayout>

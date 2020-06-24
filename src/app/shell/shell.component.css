@@ -1,0 +1,21 @@
+.Stat-nav{
+    padding-top: 15px;
+    background-color: whitesmoke;
+    height: 100px;
+    padding-left: 20px;
+    color: whitesmoke;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  GridLayout{
+      background-color: whitesmoke;
+  }
+  .h5{
+      font-size: 20px;
+  }
+  .title{
+      font-size: 20px;
+      font-weight: bolder;
+      text-align: center;
+  }

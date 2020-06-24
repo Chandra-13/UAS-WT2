@@ -1,0 +1,18 @@
+<GridLayout rows="*, auto, *" columns="*">
+    <StackLayout row="1" col="0" class="p-x-20">
+      <Image src="~/app/images/bigetron.png"></Image>
+      <Button
+        class="-primary"
+        text="Login with Google"
+        (tap)="login()"
+        [isEnabled]="!loginForm.invalid"
+      ></Button>
+      <Button
+        class="-primary"
+        text="JALAN PINTAS"
+        (tap)="skip()"
+        [isEnabled]="!loginForm.invalid"
+      ></Button>
+    </StackLayout>
+  </GridLayout>
+  
